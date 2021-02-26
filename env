@@ -1,0 +1,8 @@
+SECRET_KEY=e$*ih8mhcuq$@85o*ue7f#e@$($&@q-a^)@uv)0u_)7!sdhofv
+
+DEBUG=True
+
+DB_NAME=library
+DB_USER=postgres
+DB_PASSWORD=password
+DB_HOST=db
