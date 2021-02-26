@@ -39,15 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #third party apps
     'rest_framework',
     'rest_framework_swagger',
     'django_filters',
-    'django_countries'
-    #local
     'accounts',
     'library',
-  
+    'django_countries'
 
 ]
 
