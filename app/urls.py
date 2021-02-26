@@ -32,7 +32,7 @@ api_v1_docs = [
 urlpatterns = [
     path('api/v1/', include(api_v1_docs)),
     path('admin/', admin.site.urls),
-    # path('api/v1/', include('accounts.urls')),
+    path('api/v1/', include('accounts.urls')),
     path('api/v1/', include('library.urls')),
   
 
