@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'library',
     'orders',
     'django_countries',
-    'phone_field'
+   
 
 ]
 
