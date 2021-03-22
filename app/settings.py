@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'django_filters',
     'accounts',
     'library',
-    'django_countries'
+    'orders',
+    'django_countries',
+    'phone_field'
 
 ]
 
@@ -88,7 +90,7 @@ DATABASES = {
         'NAME': config('DB_NAME'),
         'USER': config('DB_USER'),
         'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
+        'HOST':"localhost",
         'PORT': 5432,
     }
 }
@@ -129,3 +131,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# AT
+AFRICAS_TALKING_USERNAME=config('AFRICAS_TALKING_USERNAME')
+AFRICAS_TALKING_API_KEY=config('AFRICAS_TALKING_API_KEY')
+AFRICAS_TALKING_URL_ENDPOINT=config("AFRICAS_TALKING_URL_ENDPOINT")
